@@ -1,0 +1,158 @@
+*, *:before, *:after {
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+  font-family: 'Edmondsans-Bold';
+  src: url('../fonts/Edmondsans-Bold.eot');
+  src: url('../fonts/Edmondsans-Bold.eot?#iefix') format('embedded-opentype'),
+       url('../fonts/Edmondsans-Bold.woff2') format('woff2'),
+       url('../fonts/Edmondsans-Bold.woff') format('woff'),
+       url('../fonts/Edmondsans-Bold.ttf') format('truetype'),
+       url('../fonts/Edmondsans-Bold.svg#Edmondsans-Bold') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Edmondsans-Regular';
+  src: url('../fonts/Edmondsans-Regular.eot');
+  src: url('../fonts/Edmondsans-Regular.eot?#iefix') format('embedded-opentype'),
+       url('../fonts/Edmondsans-Regular.woff2') format('woff2'),
+       url('../fonts/Edmondsans-Regular.woff') format('woff'),
+       url('../fonts/Edmondsans-Regular.ttf') format('truetype'),
+       url('../fonts/Edmondsans-Regular.svg#Edmondsans-Regular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+html {font-size: 1em;}
+
+body {
+  background-color: white;
+  font-family: 'Karla', serif;
+  line-height: 1.45;
+  color: #333;
+}
+
+.karla {
+    font-family: 'Karla', sans-serif;
+    font-weight: 400;
+}
+
+p {font-size: .94em; margin-bottom: 1.3em;}
+
+h1, h2, h3, h4 {
+  margin: 1.414em 0 0.5em;
+  font-weight: inherit;
+  line-height: 1.05;
+}
+
+h1, .uno {
+  margin-top: 0;
+  font-size: 3.157em;
+}
+
+h2, .dos {font-size: 2.369em;}
+
+h3, .tres {font-size: 1.777em;}
+
+h4, .cuatro {font-size: 1.333em;}
+
+small, .font_small, .date {font-size: 0.75em;}
+
+main, header {
+    width: 85%;
+    max-width: 50rem;
+    margin: 0 auto;
+}
+
+.inline li {
+    display: inline-block;
+}
+
+.no-bullets li {
+    list-style-type: none;
+}
+
+.no-underline, .no-underline a {
+    text-decoration: none;
+    color: #333;
+}
+
+header h1 {
+    font-family: 'Edmondsans-Regular', serif;
+    letter-spacing: -0.015em;
+    font-size: 4.208281em;
+    margin-top: 10rem;
+}
+
+#logo {
+    display: inline-block;
+    position: relative;
+}
+
+#logo:after {
+    content: "";
+    position: absolute;
+    top: 83%;
+    left: 5%;
+    height: .065em;
+    background-color: #333;
+    width: 94.5%;
+}
+
+.menu li {
+    margin-right: 6px;
+}
+
+#background {
+    margin-top: 2rem;
+    padding-right: 6rem;
+}
+
+table {
+    text-align: left;
+}
+
+#experiencia td {
+    display: table;
+    width: 100%;
+    padding-top: .75rem;
+}
+
+th {
+    padding-top: 2.75rem;
+}
+
+.col-1 {
+    font-weight: 700;
+}
+
+.date {
+    display: block;
+    margin-top: .3rem;
+    font-weight: 400;
+}
+
+@media only screen and (min-width:50em) {
+    #experiencia td {
+        display: table-cell;
+        vertical-align: top;
+    }
+    
+    #experiencia td.col-1 {
+        width: 30%;
+        padding-right: 2rem;
+    }
+    
+    #experiencia td.col-2 {
+        width: 70%;
+        padding-right: 5rem;
+    }
+}
+
+.first-level, .second-level {
+    margin-left: 1.2rem;
+}
